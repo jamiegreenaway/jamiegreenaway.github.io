@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+    box-shadow: 1px 1px #363636;
+    width: 750px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+.socialMediaLogos {
+    justify-content: space-between;
+}
+.socialMediaLogos img {
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.options {
+    text-align: left;
+    justify-content: center;
+    display: inline-block;
+}
+
+.text p{
+    padding: 0;
+    margin: 0;
+}
+
+.badge {
+    height: 200px;
+    width: 200px;
+}
