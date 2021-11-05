@@ -34,3 +34,20 @@
     height: 200px;
     width: 200px;
 }
+
+.policies h4{
+    margin: 0;
+}
+
+.child_protection {
+    margin-top: 20px;
+}
+
+.child_protection h4{
+    margin: 0;
+}
+
+.child_protection p{
+    margin: 0;
+}
+
