@@ -25,7 +25,7 @@ const NewsCard = ({ player, classes }) => {
     switch (name) {
       case "Ross Connelly":
         return RossConnely;
-      case "Ian Ure":
+      case "Iain Ure":
         return IanUre;
       case "Ruaridh MacDonald":
         return RuaridhMacDonald;
