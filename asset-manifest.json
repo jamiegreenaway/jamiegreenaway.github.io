@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a617e044.chunk.css",
-    "main.js": "/static/js/main.a6f75085.chunk.js",
-    "main.js.map": "/static/js/main.a6f75085.chunk.js.map",
+    "main.js": "/static/js/main.a63593de.chunk.js",
+    "main.js.map": "/static/js/main.a63593de.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f68c5798.js",
     "runtime-main.js.map": "/static/js/runtime-main.f68c5798.js.map",
     "static/js/2.9d327bdf.chunk.js": "/static/js/2.9d327bdf.chunk.js",
@@ -41,7 +41,6 @@
     "static/media/MarcSludden.258c4759.png": "/static/media/MarcSludden.258c4759.png",
     "static/media/NoImage.2a9cc567.png": "/static/media/NoImage.2a9cc567.png",
     "static/media/NoImage.3c76c0c9.png": "/static/media/NoImage.3c76c0c9.png",
-    "static/media/PoliciesImage.7e6a3eb5.jpg": "/static/media/PoliciesImage.7e6a3eb5.jpg",
     "static/media/Rangers.239b89c5.png": "/static/media/Rangers.239b89c5.png",
     "static/media/RossConnely.3586acee.jfif": "/static/media/RossConnely.3586acee.jfif",
     "static/media/RuaridhMacDonald.0bdb2237.png": "/static/media/RuaridhMacDonald.0bdb2237.png",
@@ -59,6 +58,6 @@
     "static/js/runtime-main.f68c5798.js",
     "static/js/2.9d327bdf.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.a6f75085.chunk.js"
+    "static/js/main.a63593de.chunk.js"
   ]
 }
