@@ -1,6 +1,5 @@
 import React from "react";
 import { withStyles } from "@material-ui/styles";
-import PoliciesImage from "../../static/PoliciesImage.jpg";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import { CardActionArea } from "@mui/material";
@@ -59,7 +58,6 @@ const Home = ({ classes }) => {
   return (
     <div className={classes.container}>
       <h1>Our Policies</h1>
-      <img src={PoliciesImage} alt="dean watson" style={{ width: "100vw" }} />
       <div className={classes.policyContainer}>
         <div className={classes.policy}>
           <Card sx={{ minWidth: 200 }} className={classes.card}>
