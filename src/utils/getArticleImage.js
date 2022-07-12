@@ -3,6 +3,8 @@ import SluddenChecksIn from "../static/news/SluddenChecksIn.png";
 import SeasonTickets from "../static/news/SeasonTickets.jfif";
 import SquadUpdate from "../static/news/SquadUpdate.jfif";
 import NoImage from "../static/news/NoImage.png";
+import Brownlee from "../static/news/brownlee.png";
+import Del from "../static/news/del.jpeg";
 
 export function getArticleImage(title) {
   switch (title) {
@@ -14,6 +16,10 @@ export function getArticleImage(title) {
       return SeasonTickets;
     case "Squad Update":
       return SquadUpdate;
+    case "Crossgates Primrose 2-2 East Stirlingshire":
+      return Brownlee;
+    case "Dunbar United 2-1 East Stirlingshire":
+      return Del;
     default:
       return NoImage;
   }
