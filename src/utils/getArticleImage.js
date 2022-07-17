@@ -5,6 +5,7 @@ import SquadUpdate from "../static/news/SquadUpdate.jfif";
 import NoImage from "../static/news/NoImage.png";
 import Brownlee from "../static/news/brownlee.png";
 import Del from "../static/news/del.jpeg";
+import Del2 from "../static/news/DelBeanie.png";
 
 export function getArticleImage(title) {
   switch (title) {
@@ -20,6 +21,8 @@ export function getArticleImage(title) {
       return Brownlee;
     case "Dunbar United 2-1 East Stirlingshire":
       return Del;
+    case "Lothian Thistle Hutchison Vale 2-3 East Stirlingshire":
+      return Del2;
     default:
       return NoImage;
   }
