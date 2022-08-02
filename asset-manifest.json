@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5739ad41.chunk.css",
-    "main.js": "/static/js/main.9a23cfcd.chunk.js",
-    "main.js.map": "/static/js/main.9a23cfcd.chunk.js.map",
+    "main.js": "/static/js/main.b4a272b7.chunk.js",
+    "main.js.map": "/static/js/main.b4a272b7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f68c5798.js",
     "runtime-main.js.map": "/static/js/runtime-main.f68c5798.js.map",
     "static/js/2.b517ec7e.chunk.js": "/static/js/2.b517ec7e.chunk.js",
@@ -29,6 +29,7 @@
     "static/media/DelBeanie.db691aee.png": "/static/media/DelBeanie.db691aee.png",
     "static/media/East_Kilbride.0b885242.png": "/static/media/East_Kilbride.0b885242.png",
     "static/media/East_Stirlingshire.2a9cc567.png": "/static/media/East_Stirlingshire.2a9cc567.png",
+    "static/media/Edin_uni.f448f946.jpg": "/static/media/Edin_uni.f448f946.jpg",
     "static/media/Edinburgh_University.3b28835f.png": "/static/media/Edinburgh_University.3b28835f.png",
     "static/media/Gala.946baa32.png": "/static/media/Gala.946baa32.png",
     "static/media/GregorFotheringham.afaec8dd.png": "/static/media/GregorFotheringham.afaec8dd.png",
@@ -49,6 +50,7 @@
     "static/media/SluddenChecksIn.258c4759.png": "/static/media/SluddenChecksIn.258c4759.png",
     "static/media/Spartans.32b9e0cd.png": "/static/media/Spartans.32b9e0cd.png",
     "static/media/SquadUpdate.2c39497b.jfif": "/static/media/SquadUpdate.2c39497b.jfif",
+    "static/media/Stirling_uni.3239553a.jpg": "/static/media/Stirling_uni.3239553a.jpg",
     "static/media/Tranent_Juniors.8c8f1710.png": "/static/media/Tranent_Juniors.8c8f1710.png",
     "static/media/University_of_Stirling.6d3364a3.png": "/static/media/University_of_Stirling.6d3364a3.png",
     "static/media/WilsonSignsUp.16646c75.jpg": "/static/media/WilsonSignsUp.16646c75.jpg",
@@ -61,6 +63,6 @@
     "static/js/runtime-main.f68c5798.js",
     "static/js/2.b517ec7e.chunk.js",
     "static/css/main.5739ad41.chunk.css",
-    "static/js/main.9a23cfcd.chunk.js"
+    "static/js/main.b4a272b7.chunk.js"
   ]
 }
