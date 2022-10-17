@@ -64,6 +64,9 @@ const WebsiteSwitch = (o) => {
           <Route exact path="/Fixtures">
             <Fixtures />
           </Route>
+          <Route exact path="/policies">
+            <ImportantInfo />
+          </Route>
           <Route exact path="/Article/:id">
             <IndividualArticle />
           </Route>

@@ -4,9 +4,10 @@ import { withStyles } from "@material-ui/styles";
 import { Button } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import SportsSoccerIcon from "@mui/icons-material/SportsSoccer";
 import ScheduleIcon from "@mui/icons-material/Schedule";
 import StadiumIcon from "@mui/icons-material/Stadium";
+import DescriptionIcon from "@mui/icons-material/Description";
+
 const style = {
   root: {
     display: "flex",
@@ -44,6 +45,9 @@ const Header = ({ classes }) => {
       case 4:
         window.location.replace("https://app.fanbaseclub.com/Fan/Clubs/Choose");
         break;
+      case 5:
+        history.push("/Policies");
+        break;
       default:
     }
   }
@@ -63,13 +67,13 @@ const Header = ({ classes }) => {
           <StadiumIcon />
           <h4>Season Tickets</h4>
         </Button>
-        <Button onClick={(e) => navigate(2)} className={classes.button}>
-          <SportsSoccerIcon />
-          <h4>Players</h4>
-        </Button>
         <Button onClick={(e) => navigate(3)} className={classes.button}>
           <ScheduleIcon />
           <h4>Fixtures</h4>
+        </Button>
+        <Button onClick={(e) => navigate(5)} className={classes.button}>
+          <DescriptionIcon />
+          <h4>Policies</h4>
         </Button>
       </div>
     </div>

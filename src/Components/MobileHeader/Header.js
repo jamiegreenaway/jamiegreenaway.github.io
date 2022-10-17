@@ -4,7 +4,7 @@ import { withStyles } from "@material-ui/styles";
 import { Button } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import SportsSoccerIcon from "@mui/icons-material/SportsSoccer";
+import DescriptionIcon from "@mui/icons-material/Description";
 import ScheduleIcon from "@mui/icons-material/Schedule";
 import StadiumIcon from "@mui/icons-material/Stadium";
 
@@ -46,6 +46,9 @@ const Header = ({ classes }) => {
       case 4:
         window.location.replace("https://app.fanbaseclub.com/Fan/Clubs/Choose");
         break;
+      case 5:
+        history.push("/Policies");
+        break;
       default:
     }
   }
@@ -62,11 +65,11 @@ const Header = ({ classes }) => {
         <Button onClick={(e) => navigate(4)} className={classes.button}>
           <StadiumIcon />
         </Button>
-        <Button onClick={(e) => navigate(2)} className={classes.button}>
-          <SportsSoccerIcon />
-        </Button>
         <Button onClick={(e) => navigate(3)} className={classes.button}>
           <ScheduleIcon />
+        </Button>
+        <Button onClick={(e) => navigate(5)} className={classes.button}>
+          <DescriptionIcon />
         </Button>
       </div>
     </div>

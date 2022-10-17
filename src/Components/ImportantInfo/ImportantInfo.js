@@ -11,6 +11,9 @@ const styles = {
   policy: {
     padding: 10,
   },
+  container: {
+    display: "inline-block",
+  },
 };
 
 const Home = ({ classes }) => {
@@ -51,6 +54,26 @@ const Home = ({ classes }) => {
           "https://docs.google.com/document/d/1CeiSznjwSEi2Ppcz_vfRpBerOXBuxOsw/edit"
         );
         break;
+      case 7:
+        window.location.replace(
+          "https://docs.google.com/document/d/1vC_RI2IcPEnjcBIbiP6ufeRhQvTR7hjR/edit?usp=sharing&ouid=114293648345172781405&rtpof=true&sd=true"
+        );
+        break;
+      case 8:
+        window.location.replace(
+          "https://docs.google.com/document/d/1jgpt_rkxAxizxXFmIi4sz9eotCsbnbW8/edit?usp=sharing&ouid=114293648345172781405&rtpof=true&sd=true"
+        );
+        break;
+      case 9:
+        window.location.replace(
+          "https://docs.google.com/document/d/1JPorEUaW6hlWVZLphoGpyeGGO0Rv_z7j/edit?usp=sharing&ouid=114293648345172781405&rtpof=true&sd=true"
+        );
+        break;
+      case 10:
+        window.location.replace(
+          "https://docs.google.com/document/d/1cvyToonNEfU2SHLGPRPyinHQKR6lPlVC/edit?usp=sharing&ouid=114293648345172781405&rtpof=true&sd=true"
+        );
+        break;
       default:
     }
   }
@@ -59,15 +82,6 @@ const Home = ({ classes }) => {
     <div className={classes.container}>
       <h1>Our Policies</h1>
       <div className={classes.policyContainer}>
-        <div className={classes.policy}>
-          <Card sx={{ minWidth: 200 }} className={classes.card}>
-            <CardActionArea onClick={(e) => navigate(0)}>
-              <CardContent>
-                <h3>Child Well-Being Recruitment Training</h3>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-        </div>
         <div className={classes.policy}>
           <Card sx={{ minWidth: 200 }}>
             <CardActionArea onClick={(e) => navigate(1)}>
@@ -118,6 +132,43 @@ const Home = ({ classes }) => {
             <CardActionArea onClick={(e) => navigate(6)}>
               <CardContent>
                 <h3>Equality, Diversity and Inclusion Statement</h3>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </div>
+        <h3>Child Protection</h3>
+        <div className={classes.policy}>
+          <Card sx={{ minWidth: 200 }} className={classes.card}>
+            <CardActionArea onClick={(e) => navigate(7)}>
+              <CardContent>
+                <h3>Concern Recording Form</h3>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </div>
+        <div className={classes.policy}>
+          <Card sx={{ minWidth: 200 }} className={classes.card}>
+            <CardActionArea onClick={(e) => navigate(8)}>
+              <CardContent>
+                <h3>Responding to Concern Procedure</h3>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </div>
+        <div className={classes.policy}>
+          <Card sx={{ minWidth: 200 }} className={classes.card}>
+            <CardActionArea onClick={(e) => navigate(9)}>
+              <CardContent>
+                <h3>Child Wellbeing Policy and Statement</h3>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </div>
+        <div className={classes.policy}>
+          <Card sx={{ minWidth: 200 }} className={classes.card}>
+            <CardActionArea onClick={(e) => navigate(10)}>
+              <CardContent>
+                <h3>Child Wellbeing and Protection Policy</h3>
               </CardContent>
             </CardActionArea>
           </Card>
