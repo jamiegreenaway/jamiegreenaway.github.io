@@ -8,7 +8,7 @@ import Del from "../static/news/del.jpeg";
 import Del2 from "../static/news/DelBeanie.png";
 import StirlingUni from "../static/news/Stirling_uni.jpg";
 import EdinUni from "../static/news/Edin_uni.jpg";
-
+import GeorgePatterson from "../static/news/GeorgePatterson.jpg";
 export function getArticleImage(title) {
   switch (title) {
     case "Wilson Signs Up":
@@ -29,6 +29,8 @@ export function getArticleImage(title) {
       return StirlingUni;
     case "Edinburgh University 1-1 East Stirlingshire":
       return EdinUni;
+    case "Ultimate Soccer boss becomes Clark's right-hand man":
+      return GeorgePatterson;
     default:
       return NoImage;
   }

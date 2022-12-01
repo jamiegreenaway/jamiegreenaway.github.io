@@ -9,6 +9,7 @@ const style = {
     display: "inline-block",
     textAlign: "center",
     margin: "auto",
+    padding: "10px",
   },
   paragraphs: {
     fontSize: 20,
@@ -33,7 +34,7 @@ const IndividualArticle = ({ classes }, match) => {
       <img
         src={getArticleImage(article.title)}
         alt="article"
-        style={{ maxHeight: "10%", maxWidth: "80%" }}
+        style={{ maxHeight: "700px", maxWidth: "80%" }}
       />
       <div className={classes.content}>
         {article.content.map((p) => (
