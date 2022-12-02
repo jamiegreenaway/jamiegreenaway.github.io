@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a617e044.chunk.css",
-    "main.js": "/static/js/main.071d1b79.chunk.js",
-    "main.js.map": "/static/js/main.071d1b79.chunk.js.map",
+    "main.js": "/static/js/main.04a02720.chunk.js",
+    "main.js.map": "/static/js/main.04a02720.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f68c5798.js",
     "runtime-main.js.map": "/static/js/runtime-main.f68c5798.js.map",
     "static/js/2.bcb5a00a.chunk.js": "/static/js/2.bcb5a00a.chunk.js",
@@ -32,6 +32,7 @@
     "static/media/Edin_uni.f448f946.jpg": "/static/media/Edin_uni.f448f946.jpg",
     "static/media/Edinburgh_University.3b28835f.png": "/static/media/Edinburgh_University.3b28835f.png",
     "static/media/Gala.946baa32.png": "/static/media/Gala.946baa32.png",
+    "static/media/GeorgePatterson.9b20ad2e.jpg": "/static/media/GeorgePatterson.9b20ad2e.jpg",
     "static/media/GregorFotheringham.afaec8dd.png": "/static/media/GregorFotheringham.afaec8dd.png",
     "static/media/Gretna.ea6f9810.png": "/static/media/Gretna.ea6f9810.png",
     "static/media/Hearts.9622aa0a.png": "/static/media/Hearts.9622aa0a.png",
@@ -63,6 +64,6 @@
     "static/js/runtime-main.f68c5798.js",
     "static/js/2.bcb5a00a.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.071d1b79.chunk.js"
+    "static/js/main.04a02720.chunk.js"
   ]
 }
