@@ -9,6 +9,8 @@ import Del2 from "../static/news/DelBeanie.png";
 import StirlingUni from "../static/news/Stirling_uni.jpg";
 import EdinUni from "../static/news/Edin_uni.jpg";
 import GeorgePatterson from "../static/news/GeorgePatterson.jpg";
+import Niyah from "../static/news/Niyah.jpg";
+
 export function getArticleImage(title) {
   switch (title) {
     case "Wilson Signs Up":
@@ -31,6 +33,8 @@ export function getArticleImage(title) {
       return EdinUni;
     case "Ultimate Soccer boss becomes Clark's right-hand man":
       return GeorgePatterson;
+    case "Former Queen of the South and Annan starlet joins up with The Shire":
+      return Niyah;
     default:
       return NoImage;
   }
